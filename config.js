@@ -32,8 +32,8 @@ const CONFIG = {
 	language: 'en', // More languages in https://openweathermap.org/current#multi
 
 	trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
-	defaultLatitude: '43.6529',
-	defaultLongitude: '-79.3849',
+	defaultLatitude: '43.652',
+	defaultLongitude: '-79.384',
 
 	// Autochange
 	autoChangeTheme: true,
@@ -143,7 +143,7 @@ const CONFIG = {
 					link: 'https://youtu.be/n1ZqN_VFhdo',
 				},
 				{
-					name: '80's Disco and Funk',
+					name: '80s Disco and Funk',
 					link: 'https://youtu.be/CCW1QVXqPAA',
 				},
 				{
