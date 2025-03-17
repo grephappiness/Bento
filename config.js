@@ -20,7 +20,7 @@ const CONFIG = {
 	greetingMorning: 'Good morning!',
 	greetingAfternoon: 'Good afternoon,',
 	greetingEvening: 'Good evening,',
-	greetingNight: 'Rage on!',
+	greetingNight: 'Get some rest,',
 
 	// Layout
 	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
@@ -39,7 +39,7 @@ const CONFIG = {
 	autoChangeTheme: true,
 
 	// Autochange by OS
-	changeThemeByOS: true,
+	changeThemeByOS: false,
 
 	// Autochange by hour options (24hrs format, string must be in: hh:mm)
 	changeThemeByHour: false,
@@ -59,13 +59,13 @@ const CONFIG = {
 		},
 		{
 			id: '2',
-			name: 'Mail',
+			name: 'Gmail',
 			icon: 'mail',
 			link: 'https://gmail.com',
 		},
 		{
 			id: '3',
-			name: 'Todoist',
+			name: 'Trello Board',
 			icon: 'trello',
 			link: 'https://trello.com/b/80fy4Gpf/jacobs-board',
 		},
@@ -77,15 +77,15 @@ const CONFIG = {
 		},
 		{
 			id: '5',
-			name: 'Squabbles',
-			icon: 'glasses',
-			link: 'https://squabbles.io',
+			name: 'Solo',
+			icon: 'life-buoy',
+			link: 'https://solo-inline.com',
 		},
 		{
 			id: '6',
-			name: 'Odysee',
+			name: 'Youtube',
 			icon: 'youtube',
-			link: 'https://odysee.com/',
+			link: 'https://www.youtube.com/feed/subscriptions',
 		},
 	],
 
@@ -98,13 +98,13 @@ const CONFIG = {
 		},
 		{
 			id: '2',
-			name: 'twitter',
+			name: '',
 			icon: 'twitter',
 			link: 'https://twitter.com/',
 		},
 		{
 			id: '3',
-			name: 'bot',
+			name: '',
 			icon: 'bot',
 			link: 'https://discord.com/app',
 		},
@@ -135,24 +135,24 @@ const CONFIG = {
 	// First Links Container
 	firstlistsContainer: [
 		{
-			icon: 'music',
+			icon: 'youtube',
 			id: '1',
 			links: [
 				{
-					name: 'French Touch',
-					link: 'https://youtu.be/n1ZqN_VFhdo',
+					name: 'Wizard Inspo',
+					link: 'https://www.youtube.com/watch?v=vZYadDxpfwQ&list=PLwXxJLYUrIlA0ZE38Oyd7Q4ROgg8iKhEK',
 				},
 				{
-					name: '80s Disco and Funk',
-					link: 'https://youtu.be/CCW1QVXqPAA',
+					name: 'Wizard Skating Tips',
+					link: 'https://www.youtube.com/watch?v=aLQNy2f6nI0&list=PLwXxJLYUrIlCNAMaBTCK6VtJAReOljZMW',
 				},
 				{
-					name: 'Nujabes',
-					link: 'https://youtu.be/_qU2MXeAz1E',
+					name: 'Home Inspo',
+					link: 'https://www.youtube.com/watch?v=taJ5pN7Zdn0&list=PLwXxJLYUrIlBQCMY2S7IDu6pMuTbWGelY',
 				},
 				{
-					name: 'Blog House',
-					link: 'https://youtu.be/eh-XLI6f3Dw',
+					name: 'Classic House Jams',
+					link: 'https://www.youtube.com/watch?v=EazO091XM-4&list=PLwXxJLYUrIlBb_m874fPgY_LxY-byl_Ci',
 				},
 			],
 		},
@@ -165,16 +165,16 @@ const CONFIG = {
 					link: 'https://www.linkedin.com',
 				},
 				{
-					name: 'Dribbble',
-					link: 'https://www.dribbble.com',
+					name: 'A Cloud Guru',
+					link: 'https://www.pluralsight.com/cloud-guru',
 				},
 				{
-					name: 'Trello',
-					link: 'https://www.trello.com',
+					name: 'WealthSimple',
+					link: 'https://www.wealthsimple.com/en-ca/',
 				},
 				{
-					name: 'Slack',
-					link: 'https://www.slack.com',
+					name: 'Pexels',
+					link: 'https://www.pexels.com/',
 				},
 			],
 		},
